@@ -57,3 +57,5 @@ Go to Eclipse ==> Windows ==> Preferences ==>Maven ==>Click on 'Remote catalog'
     Here i choosed the path as : D:\settings\customrepo to store the dependecies.
     
     
+For More information regarding pom.xml file properties refer below link:
+https://maven.apache.org/settings.html
