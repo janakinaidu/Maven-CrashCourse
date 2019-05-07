@@ -34,3 +34,26 @@ Go to Eclipse ==> Windows ==> Preferences ==>Maven ==>Click on 'Remote catalog'
       Description: myRemoteRepo
       
  you can give any name fro description;click on verify to test the artificats and ok.
+ 
+ Note If you want to practice maven projects in parallel with your projects exisitng in your office,then you might face some build issues that existing  repository will not accept your current versions of artifcats/groupid versions.so it is better to add
+ a new settings.xml file for your practice and you can find it in files section.and give a path where you want to store the jar files.
+ like below:
+ 
+    <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                          https://maven.apache.org/xsd/settings-1.0.0.xsd">
+      <interactiveMode/>
+      <offline/>
+      <pluginGroups/>
+      <servers/>
+      <mirrors/>
+      <proxies/>
+      <profiles/>
+      <activeProfiles/>
+	  <localRepository>D:\settings\customrepo</localRepository>
+    </settings>
+    
+    Here i choosed the path as : D:\settings\customrepo to store the dependecies.
+    
+    
