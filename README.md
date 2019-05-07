@@ -24,3 +24,13 @@ RemoteReposiotry(you can give any convinient name);
 =======================================
 File->New->Other->maven project->Next->Next->type "maven-archetype-quickstart" filter the archetypes and select the archetype and
 create your standalone maven project;
+
+
+#How to add RemoteCatalog
+========================
+Go to Eclipse ==> Windows ==> Preferences ==>Maven ==>Click on 'Remote catalog'
+    
+      Catalog      https://repo.maven.apache.org/maven2/
+      Description: myRemoteRepo
+      
+ you can give any name fro description;click on verify to test the artificats and ok.
