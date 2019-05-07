@@ -59,3 +59,15 @@ Go to Eclipse ==> Windows ==> Preferences ==>Maven ==>Click on 'Remote catalog'
     
 For More information regarding pom.xml file properties refer below link:
 https://maven.apache.org/settings.html
+
+Note:
+-----
+ ->After creating a maven project,If you are not found src/amin/resources folder, righclick on your project and go to  'new' 
+   and click on 'source folder' and now add 'src/main/resource' as a folder name;
+   
+->if you are not found even 'src/main/java' folder then you can rightclick on your project and click on properties search for 
+   'project facets' makesure select java and others if you require ,click on Apply and ok.Now you will get project structure as you    expected.
+   
+->And sometimes this will be resolved by:rightclick on your project--->properties-->buildpath-configure buildpath-->
+   in 'Orders and Export' tab just check the Maven Dependencies option.
+   so finally issue will be resolved by any of the above options.
